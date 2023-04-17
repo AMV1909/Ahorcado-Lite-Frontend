@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import { Game, Home } from "./Pages";
 
 export function App() {
-    let socket = io("https://ahorcado-lite-backend-production.up.railway.app");
+    let socket = io(import.meta.env.VITE_API_URL);
 
     return (
         <Router>

@@ -49,8 +49,6 @@ export function Game({ socket }) {
         }
     };
 
-    console.log(game);
-
     return (
         <div className="ahorcado__game content">
             <div className="ahorcado__game-header">
